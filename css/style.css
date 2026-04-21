@@ -688,6 +688,21 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    .hero-bg {
+        background-attachment: scroll;
+    }
+
+    .card-icon img {
+        height: 160px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
     .header {
         padding: 1rem 0;
         background: var(--glass-bg);
