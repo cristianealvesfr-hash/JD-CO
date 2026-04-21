@@ -704,8 +704,8 @@ h1, h2, h3, h4 {
     }
 
     .contact-link {
-        font-size: 1.25rem;
-        word-break: break-all;
+        font-size: 1rem;
+        word-break: normal;
     }
 
     .whatsapp-float {
